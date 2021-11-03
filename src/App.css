@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: #202020;
+  text-align: center;
+  color: white;
+}
+
+.addIcon {
+  
+  background-image: url("https://d19d5sz0wkl0lu.cloudfront.net/dims4/default/71dc7b8/2147483647/resize/800x%3E/quality/90/?url=https%3A%2F%2Fatd-brightspot.s3.amazonaws.com%2Fd3%2Fe9%2F08f62b1f492bbc586de2047e3952%2Ftd-december2019-intelligence1trend.jpg") ;
+  background-size: contain;
+  /* padding: 40px;
+   font-size: 15px; */
+ /* border: none;*/
+ position: fixed; 
+  /* top: -10%;  */
+ left: 0.2%;  
+ width: 100%; 
+ height: 100%;
+ 
+  }
+
+  .hbutton{
+    /* color: #0000FF; */
+    border: 2px solid black;
+    padding: .2em .4em;
+    border-radius: .2em;
+    font-weight: bold;
+    background-color: #FFFF00;
+    margin-left: "10px";
+    margin-top:"20px";
+  }
+  .customerList {
+      background-image: url("https://designshack.net/wp-content/uploads/project-management-software.png") ;
+      background-size: contain;
+       /* padding: 40px;
+        font-size: 15px; */
+      /* border: none;*/
+      position: fixed; 
+       /* top: 1.0%;  */
+      left: 0.05%;  
+      right: 0.05%;  
+      width: 80%; 
+      height: 100%;
+      
+       }
+       .button5 {border-radius: 50%;
+        font-size: 18px;}
+
+     .homebtn {
+      float: right;
+      /* text-align: right; */
+    }
+
+    .list{
+      /* color: #ff7225; */
+        list-style-type: none;
+    
+    }
+    .dashbg {
+      background-image: url("https://www.ntaskmanager.com/wp-content/uploads/2020/02/What-is-a-Project-1-scaled.jpg") ;
+     background-size: contain;
+       position: fixed; 
+       left: 0.05%; 
+      width: 100%; 
+     height: 95%;
+     top: 8.0%;  
+      }
